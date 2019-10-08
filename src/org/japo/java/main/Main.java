@@ -20,8 +20,9 @@ package org.japo.java.main;
  * @author Mario Merlos Abella <mario.merlos.alum@iescamp.es>
  */
 public class Main {
-       public static void main(String[] args){
-           final String SALUDO_CONSTANTE = "¡Hola mundo!";
-       System.out.println(SALUDO_CONSTANTE);
-       }
+
+    public static void main(String[] args) {
+        final String SALUDO_CONSTANTE = "¡Hola mundo!";
+        System.out.println(SALUDO_CONSTANTE);
+    }
 }
