@@ -15,8 +15,6 @@
  */
 package org.japo.java.main;
 
-import java.util.Locale;
-
 /**
  *
  * @author Mario Merlos Abella <mario.merlos.alum@iescamp.es>
