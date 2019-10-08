@@ -15,6 +15,8 @@
  */
 package org.japo.java.main;
 
+import java.util.Locale;
+
 /**
  *
  * @author Mario Merlos Abella <mario.merlos.alum@iescamp.es>
@@ -22,7 +24,7 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
-        final int ANY_LLEGADA_LUNA =1969;
-        System.out.printf("El hombre llegó a la luna en %d.%n",ANY_LLEGADA_LUNA);
+        final double  CAMBIO_EURO_DOLAR =1.09;
+        System.out.printf(Locale.ENGLISH, "El cambio de hoy es 1€ por  %.2f$%n",CAMBIO_EURO_DOLAR);
     }
 }
