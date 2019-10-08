@@ -24,7 +24,7 @@ import java.util.Locale;
 public class Main {
 
     public static void main(String[] args) {
-        final double CAMBIO_EURO_DOLAR = 1.09;
-        System.out.printf(Locale.ENGLISH, "El cambio de hoy es 1€ por  %.2f$%n", CAMBIO_EURO_DOLAR);
+        final boolean HORARIO_INVIERNO = false;
+        System.out.printf("Horario de invierno ...: %b%n", HORARIO_INVIERNO);
     }
 }
