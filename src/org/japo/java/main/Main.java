@@ -22,7 +22,7 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
-        final boolean HORARIO_INVIERNO = false;
-        System.out.printf("Horario de invierno ...: %b%n", HORARIO_INVIERNO);
+        final char LETRA_DNI = 'K';
+        System.out.printf("Letra DNI ...: %c.%n", LETRA_DNI);
     }
 }
