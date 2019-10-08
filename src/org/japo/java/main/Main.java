@@ -22,7 +22,7 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
-        final String SALUDO_CONSTANTE = "¡Hola mundo!";
-        System.out.println(SALUDO_CONSTANTE);
+        final int ANY_LLEGADA_LUNA =1969;
+        System.out.printf("El hombre llegó a la luna en %d.%n",ANY_LLEGADA_LUNA);
     }
 }
